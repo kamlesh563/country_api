@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.first,.second{
+    width: 90%;
+    margin: auto;
+}
+.first form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first input{
+    width: 80%;
+    padding: 10px;
+}
+.first button{
+    width: 20%;
+    background-color: rgb(229, 151, 6);
+    color: rgb(247, 247, 249);
+    border: none;
+}
+.second table{
+width: 100%;
+border-collapse:collapse;
+}
+.second tr{
+    background-color: rgb(241, 194, 7);
+}
+.second tr:nth-child(odd){
+    background-color: white;
+}
+.second,th,td{
+    padding: 10px;
+}
+.second a{
+    text-decoration: none;
+}
